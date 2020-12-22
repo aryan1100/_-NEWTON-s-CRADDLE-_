@@ -53,6 +53,7 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background(230);
+	Engine.update(engine);
   roofObject.display();
 
   rope1.display()
